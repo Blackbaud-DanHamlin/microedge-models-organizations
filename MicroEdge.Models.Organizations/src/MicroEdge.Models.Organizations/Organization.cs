@@ -18,6 +18,11 @@ namespace Microedge.Models.Organizations
         public string LegacyId { get; set; }
 
         /// <summary>
+        /// the Id of the client that this organization belongs to.
+        /// </summary>
+        public string ClientId { get; set; }
+
+        /// <summary>
         /// The organization name.
         /// </summary>
         public string Name { get; set; }
