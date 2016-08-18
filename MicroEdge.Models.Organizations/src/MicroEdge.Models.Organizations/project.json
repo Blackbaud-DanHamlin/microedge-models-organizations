@@ -1,27 +1,30 @@
 ﻿{
-  "version": "1.0.0-*",
-  "frameworks": {
-    "net45": {
-        "frameworkAssemblies": {
-            "System.Collections.Concurrent": {
-                "type": "build"
-            }
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "keyFile": "MicroEdge-Models-Organizations.snk"
+    },
+    "frameworks": {
+        "net45": {
+            "frameworkAssemblies": {
+                "System.Collections.Concurrent": {
+                    "type": "build"
+                }
+            },
+            "dependencies": {}
         },
-        "dependencies": { }
-    },
-    "net451": {
-      "frameworkAssemblies": {
-        "System.Collections.Concurrent": {
-          "type": "build"
+        "net451": {
+            "frameworkAssemblies": {
+                "System.Collections.Concurrent": {
+                    "type": "build"
+                }
+            },
+            "dependencies": {}
+        },
+        "netstandard1.6": {
+            "imports": "dnxcore50",
+            "dependencies": {
+                "NETStandard.Library": "1.6.0"
+            }
         }
-      },
-      "dependencies": { }
-    },
-    "netstandard1.6": {
-      "imports": "dnxcore50",
-      "dependencies": {
-        "NETStandard.Library": "1.6.0"    
-      }
     }
-  }
 }
