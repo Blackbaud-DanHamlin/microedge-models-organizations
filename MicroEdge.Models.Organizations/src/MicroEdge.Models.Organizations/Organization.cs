@@ -42,7 +42,7 @@ namespace Microedge.Models.Organizations
         /// <summary>
         /// List of Online Presences used by the organization.
         /// </summary>
-        public List<OnlinePresence> OnlinePresenece { get; set; } = new List<OnlinePresence>();
+        public List<OnlinePresence> OnlinePresence { get; set; } = new List<OnlinePresence>();
     }
 }
 
