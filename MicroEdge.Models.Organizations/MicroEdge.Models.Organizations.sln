@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C993729-8495-4BA8-A74D-A7CD84522C3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BEAC1049-0FC7-4DC8-B7A2-4BFB31DF9FD2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MicroEdge.Models.Organizations", "src\MicroEdge.Models.Organizations\MicroEdge.Models.Organizations.xproj", "{8759B28F-2801-4B28-9D26-8DDA5DB5A995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8759B28F-2801-4B28-9D26-8DDA5DB5A995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8759B28F-2801-4B28-9D26-8DDA5DB5A995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8759B28F-2801-4B28-9D26-8DDA5DB5A995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8759B28F-2801-4B28-9D26-8DDA5DB5A995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8759B28F-2801-4B28-9D26-8DDA5DB5A995} = {1C993729-8495-4BA8-A74D-A7CD84522C3A}
+	EndGlobalSection
+EndGlobal
